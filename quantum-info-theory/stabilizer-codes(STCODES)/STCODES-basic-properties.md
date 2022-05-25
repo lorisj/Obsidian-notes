@@ -22,7 +22,7 @@ This is because $-I\in S \implies$ $V_S = \left\{\vec{0}\right\}$, as $-I*\vec{v
 
 #### Properties of $V_S$:
 - $V_S$ is not empty
-- $dim(V_S)= 2^{}$
+- $dim(V_S)= 2^{k}$
 
 
 ## Normalizer/centralizer:
