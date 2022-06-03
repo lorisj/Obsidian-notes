@@ -14,7 +14,7 @@ $$ Z=\left[\begin{matrix}
 $$Y = i*XZ =\left[\begin{matrix}0&-i\\i&0\end{matrix}\right]$$
 ### Groups:
 
-**Def:** $\mathcal{P} =(P,*)=(\{cI,cX,cY,cZ : c\in \{\pm1,\pm i\}\},*_{\text{operator composition}})$ be the 1 pauli group
+**Def:** $\mathcal{P} =(P,*,*^{-1})=(\{cI,cX,cY,cZ : c\in \{\pm1,\pm i\}\},*,*^{-1})$ be the 1 pauli group
 
 You can check that this does in fact form a group. 
 We can generalize this to nfold tensor products:
