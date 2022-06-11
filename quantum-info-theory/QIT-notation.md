@@ -21,3 +21,9 @@ We can generalize this to nfold tensor products:
 
 **Def:** $\mathcal{P^n}=\otimes_{i=1}^n{A_i} \hspace{10mm}\text{where } A_i\in P$
 
+
+### Properties of $\mathcal{P^n}$:
+- Every element is its own inverse
+- Every element either commutes/anticomutes
+
+
