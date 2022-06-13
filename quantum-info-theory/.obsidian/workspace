@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "stabilizer-codes(STCODES)/STCODES-basic-properties.md",
+            "file": "stabilizer-codes(STCODES)/STCODES-error-correction.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "stabilizer-codes(STCODES)/STCODES-basic-properties.md",
+                "file": "stabilizer-codes(STCODES)/STCODES-error-correction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,10 @@
   },
   "active": "3b10f8a5f7c646c3",
   "lastOpenFiles": [
+    "stabilizer-codes(STCODES)/STCODES-error-correction.md",
     "stabilizer-codes(STCODES)/STCODES-basic-properties.md",
+    "Axioms.md",
     "stabilizer-codes(STCODES)/STCODES-error-properties.md",
-    "QIT-notation.md",
-    "Axioms.md"
+    "QIT-notation.md"
   ]
 }
