@@ -17,6 +17,17 @@ $$\mathcal{G^n}=(G^n,*,*^{-1})=  \text{Arbitrary subgroup of } \mathcal{P^n}$$
 	(so S is abelean)
 
 
+<<<<<<< HEAD
+=======
+#### Properties of S:
+- $-I \notin S$ 
+Why is $-I\notin S$?
+	This is because $-I\in S \implies$ $V_S = \{ \vec{0} \}$, as $-I*\vec{v} = \vec{v} \implies \vec{v} = \vec{0}$ 
+
+- $S$ has $l=n-k$ commuting and independent generators
+		(Follows from the fact that $S$ is an abelean group)
+
+>>>>>>> ff70a0808f99ee1a7e02408bd1550164e447070f
 
 #### Properties of $V_S$:
 - $V_S$ is not empty
