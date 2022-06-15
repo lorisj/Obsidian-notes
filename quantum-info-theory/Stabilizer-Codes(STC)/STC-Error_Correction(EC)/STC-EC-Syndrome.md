@@ -1,6 +1,8 @@
 # Syndrome
 [[Error_Correction]]
 
+We correct errors using syndrome decoding. 
+
 **Def(Syndrome):** Given error $E$, the syndrome of E is a $l$ tuple, where each number corresponds to $\pm 1$, the eigenvalue of the ith generator of S. 
 $$\text{Syndrome}(E)=(\lambda_i)_i, \text{ where } \lambda_i=\begin{cases}+1 & \text{if }E \text{ commutes with }g_i\\ -1& \text{ if } E \text{ anticommutes with } g_i\end{cases} $$
 Equivalently:
@@ -43,5 +45,5 @@ $$\text{Syndrome}(E)=(Eg_iE g_i)_i$$
 	Note $E^\dagger = E$, $F^\dagger = F$
     $\iff \forall_{g_i \in S} g_i= E^{\dagger}Fg_iF^{\dagger}E$
     Note for any operators $(AB)^\dagger = B^\dagger A^\dagger$
-    $\iff \forall_{g_i \in S} g_i= E^{\dagger}Fg_i(E^{\dagger}F)^\dagger$
+    $\iff \forall_{g_i \in S} g_i= E^{\dagger}Fg_i(E^{\dagger}F)^\dagger$ ^6ac8eb
     
