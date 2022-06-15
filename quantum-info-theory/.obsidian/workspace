@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Compression(CMP)/Schumacher-Compression(SC)/Schumacher-Compression.md",
+            "file": "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Correctable_errors.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Compression(CMP)/Schumacher-Compression(SC)/Schumacher-Compression.md",
+                "file": "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Correctable_errors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "954e01ee0419bbe0",
   "lastOpenFiles": [
-    "Compression(CMP)/Schumacher-Compression(SC)/Schumacher-Compression.md",
+    "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Correctable_errors.md",
     "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
+    "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/Error_Correction.md",
+    "Compression(CMP)/Schumacher-Compression(SC)/Schumacher-Compression.md",
     "Stabilizer-Codes(STC)/Stabilizer-Codes.md",
     "Stabilizer-Codes(STC)/STC-Notation.md",
     "Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Stabilizer_Definition_and_Properties.md",
     "Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Normalizer_and_Centralizer.md",
     "Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Coding_Space_Definition_and_Properties.md",
-    "Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/Basic_Properties.md",
-    "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Correctable_errors.md",
-    "Stabilizer-Codes(STC)/STC-Error_Correction(EC)/Error_Correction.md"
+    "Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/Basic_Properties.md"
   ]
 }
