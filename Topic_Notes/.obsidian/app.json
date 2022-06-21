@@ -1,0 +1,9 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheck": true,
+  "autoPairMarkdown": false,
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "promptDelete": false
+}
