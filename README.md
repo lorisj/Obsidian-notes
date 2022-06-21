@@ -3,7 +3,7 @@
 ### Sections
 Sections should generally start with ###, subsections with ####, ... reserve ## for special occasions.
 
-Section titles should not contain the char ':'
+Section titles should not end with the char ':'
 
 Section titles should be in all caps other than words like "or", "and", etc.
 
