@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "38083a1230968e12",
+    "type": "split",
+    "children": [
+      {
+        "id": "954e01ee0419bbe0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Ring_Axioms_and_Properties.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cf3687152b060f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "64e74a91cea02476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de966f2300aeb39",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9228d42aab18a087",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 462
+  },
+  "right": {
+    "id": "e6bfd877462541b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "12eaa650c7f71d84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9967d09b1610e81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Ring_Axioms_and_Properties.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "954e01ee0419bbe0",
+  "lastOpenFiles": [
+    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Ring_Axioms_and_Properties.md",
+    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Unit_Group_Definition_and_Properties.md",
+    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/Pure_Rings.md",
+    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Endomorphism_Ring_Definition_and_Properties.md",
+    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Group_Ring_Definition_and_Properties.md",
+    "Classical_Information_Theory/Compression(CMP)/Compression.md",
+    "Algebra/Ring_Theory(RGT)/RGT-Notation.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Notation.md",
+    "Quantum_Information_Theory/Quantum_Information_Theory.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/Stabilizer-Codes.md"
+  ]
+}
