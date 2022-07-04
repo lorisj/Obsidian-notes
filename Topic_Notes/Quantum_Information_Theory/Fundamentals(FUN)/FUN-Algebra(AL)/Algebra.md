@@ -1,3 +1,3 @@
 # Fundamental Quantum Algebra
-[[Fundamentals]] #summary_note
-This folder contains notes regarding some commonly used algebraic structures in QIT as well as their properties.
+[[Quantum_Information_Theory/Fundamentals(FUN)/Fundamentals]] #summary_note
+This folder contains notes regarding some commonly used algebraic structures in quantum information theory as well as their properties.

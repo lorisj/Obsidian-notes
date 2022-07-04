@@ -1,5 +1,5 @@
 # Notation used in quantum information theory
-[[Fundamentals]]
+[[Quantum_Information_Theory/Fundamentals(FUN)/Fundamentals]]
 ## Basic Math notation/assumptions
 $$\mathbb{N}=\{0,1,2,...\}$$
 $$\mathbb{Z_+}=\{1,2,...\}$$

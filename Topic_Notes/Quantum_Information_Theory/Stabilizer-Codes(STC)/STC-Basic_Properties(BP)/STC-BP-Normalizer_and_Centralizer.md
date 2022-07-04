@@ -17,6 +17,10 @@ Normalizers are important because they are equivalent to something called the ce
 														 $\equiv\{E\in G^n: E \text{ fixes } S \text{ pointwise under conjugation}\}$
 
 
+
 ### Pauli Normalizer/Centralizer theorem
 **Thm(Pauli Normalizer/Centralizer)** For the Pauli group, $\mathcal{Z}(S)=\mathcal{N}(S)$ if $-I \notin S$
-	
+
+### Normalizer Size Theorem
+**Thm(Normalizer Size):** $|\mathcal{N}(S)|=2^{n-k}$
+	Proof: $|S|=2^{n-k}$ #wip

@@ -1,3 +1,3 @@
 # Axioms of quantum mechanics
-[[Fundamentals]] #summary_note
+[[Quantum_Information_Theory/Fundamentals(FUN)/Fundamentals]] #summary_note
 This folder contains notes regarding the axioms of quantum mechanics.
