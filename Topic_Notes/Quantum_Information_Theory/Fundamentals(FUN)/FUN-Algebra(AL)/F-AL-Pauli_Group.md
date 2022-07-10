@@ -1,9 +1,9 @@
 ### Pauli Groups:
 ### Prerequisites
-[[]]
-### Introduction
 
-#wip
+### Introduction
+This note covers the [[#Definition of Pauli group|definition of the Pauli Group]], as well as its [[#Properties of mathcal G n|properties]].
+
 ### Definition of Pauli group
 **Def:** $\mathcal{G} =(G,*,I)=(\{cI,cX,cY,cZ : c\in \{\pm1,\pm i\}\},*,I)$ be the 1 Pauli group
 

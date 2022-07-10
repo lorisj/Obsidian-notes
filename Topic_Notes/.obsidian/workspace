@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Quantum_Information_Theory/Quantum_Information_Theory.md",
+            "file": "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quantum_Information_Theory/Quantum_Information_Theory.md",
+                "file": "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "a6de5ce37b573fff",
   "lastOpenFiles": [
-    "Quantum_Information_Theory/Quantum_Information_Theory.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Coding_Space_Definition_and_Properties.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Check_Matrix.md",
     "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Stabilizer_Definition_and_Properties.md",
-    "Model_Theory/Fundamentals(FUN)/FUN-Truth.md",
-    "Model_Theory/Fundamentals(FUN)/Fundamentals.md",
-    "Model_Theory/Finite_Structures.md",
-    "Model_Theory/Fundamentals(FUN)/FUN-Elementary_.md",
-    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/Pure_Rings.md",
-    "Algebra/Ring_Theory(RGT)/RGT-Pure_Rings(PR)/RGT-PR-Endomorphism_Ring_Definition_and_Properties.md",
-    "Quantum_Information_Theory/Fundamentals(FUN)/Fundamentals.md",
-    "Model_Theory/Fundamentals(FUN)/FUN-Terms_Formulas_and_Sentences.md"
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Normalizer_and_Centralizer.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Random-Stabilizer-Codes.md",
+    "Classical_Information_Theory/Fundementals(FUN)/FUN-Asypmtotic_Equipartition_Property.md",
+    "Linear_Algebra/Fundementals(FUN)/FUN-Basis.md",
+    "Linear_Algebra/Fundementals(FUN)/FUN-Linear_Independence.md",
+    "Classical_Information_Theory/Compression(CMP)/Compression.md"
   ]
 }

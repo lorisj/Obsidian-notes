@@ -63,5 +63,5 @@ Quantifier free formulas can contain anything but quantifiers.
 We can see that formulas can consist of quantified and logical statements regarding if two generalized polynomials are equal/have some other relation. So first order logic only has the power to say a quantified logical statement about if two generalized polynomials in the language are equal or have some other specified relation.
 
 ### Sentence Definition
-**Def($\mathcal{L}$ sentence):** an $\mathcal{L}$ sentence is an $\mathcal{L}$ formula without any free variables. So each variable should be bound by (i.e appear as the parameter of) some quantifier in the variable's scope.
+**Def($\mathcal{L}$ sentence):** an $\mathcal{L}$ sentence is an $\mathcal{L}$ [[#Formulas Definition|formula]] without any free variables. So each variable should be bound by (i.e appear as the parameter of) some quantifier in the variable's scope.
 
