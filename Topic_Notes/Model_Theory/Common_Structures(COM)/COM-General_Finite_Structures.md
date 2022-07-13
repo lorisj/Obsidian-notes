@@ -1,4 +1,4 @@
-# Finite Structures
+# General Finite Structures
 ### Prerequisites
 #wip
 ### Introduction
@@ -10,4 +10,4 @@
 
 ### Finite Isomorphism Corollary
 **Cor(Finite Isomorphism):** Let $\mathcal{M,N}$ be finite $\mathcal{L}$ structures, and $\mathcal{M}\cong \mathcal{N}$ with isomorphism $\mathcal{E}$. Then $\mathcal{E}$ is an elementary embedding.
-	Proof: Using the [[#Finite Structures Have Quantifier Elimination Lemma|Finite Structures have QE Lemma]], any $\mathcal{L}$ sentence $\phi$ can be turned into an equivalent $\phi_{qe}$ that has no quantifiers. #wip use the lemma that any quantifier free formula is true in all isomorphic structures.
+	Proof: Using the [[#Finite Structures Have Quantifier Elimination Lemma|Finite Structures Have QE Lemma]], any $\mathcal{L}$ sentence $\phi$ can be turned into an equivalent $\phi_{qe}$ that has no quantifiers. #wip use the lemma that any quantifier free formula is true in all isomorphic structures.

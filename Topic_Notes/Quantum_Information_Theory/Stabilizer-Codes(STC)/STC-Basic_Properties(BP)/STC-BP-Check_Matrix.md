@@ -14,7 +14,7 @@
 	$H(S)=\left[\begin{matrix}0&1&|&0&0\\0&1&|&1&1	\end{matrix}\right]$
 
 ### Isometry with $\mathcal{G}^n$: 
-Recall that $\mathcal{G}^n=\{G^n,*,I\}$ is the $n$-fold [[F-AL-Pauli_Group#Introduction|Pauli Group]]. To show that it has a similar structure to $\mathcal{R}=(R,\bar{\oplus},\vec{0})$ (where $R=\{r(g):g\in G^n\}$, and $\bar{\oplus}$ is vector addition mod 2) simply note that $r(g_1*g_2)=r(g_1)\bar{\oplus} r(g_2)$:
+Recall that $\mathcal{G}^n=\{G^n,*,I\}$ is the $n$-fold [[F-ST-Pauli_Group#Introduction|Pauli Group]]. To show that it has a similar structure to $\mathcal{R}=(R,\bar{\oplus},\vec{0})$ (where $R=\{r(g):g\in G^n\}$, and $\bar{\oplus}$ is vector addition mod 2) simply note that $r(g_1*g_2)=r(g_1)\bar{\oplus} r(g_2)$:
 	Consider $n=1$. If we let the identity $I$ map to $\vec{0}$, we can see that the identity $\vec{0}$ behaves properly with everything else. Next consider $X$ acting on $Z$: This should map to the same thing that $Y$ does, and in fact $r(X)\oplus r(Z)=r(XZ)=r(Y)$. Any element squared is the identity in the Pauli group, and any element $\oplus$ itself in $\mathcal{R}$ is also the identity. This generalizes to any n, and so $\oplus$ "plays nice" with $r$. 
 Thus $r$ is an $\mathcal{L}_{\text{group}}$ embedding, and $\mathcal{G^n} \simeq \mathcal{R}$. However note that in this case $r$ is not invertible, as addition is commutative. For instance in $\mathcal{G^1}:r(X)\oplus r(Z)=r(Z)\oplus(X)$, however $X*Z\ne Z*X$. If we consider the quotient group $\mathcal{G^n}/\mathcal{Z}$, where $\mathcal{Z}=\{\{\pm I, \pm i\},*,I\}$, then we can ignore any sign differences that occur. Then $r$ becomes invertible, and therefore an $\mathcal{L}_{\text{group}}$ isomorphism.
 
@@ -31,14 +31,15 @@ So we write these exponents as function interpretations of scalar multiplication
 		$1*r(g_i)=r(g_1)=r(exp1(g_i))$
 		$0*r(g_i)=r(I)=r(exp0(g_i))$
 	Identity maps to identity
+	Note that $r$ is  
+		#wipImp ADD stuff talking about $P^n/\{\pm I, \pm i\}$ and its size in pauli algebra notes, use that fact here.
 	
 With this fact we can prove the following corollary:
 
 ### Linear independence is group independence Corollary
 **Cor(Linear independence is group independence):** Saying $g_1,...g_m \in  \mathcal{S_G}=(\mathcal{G^n}\cup\{exp0,exp1\})/\{\pm I, \pm i\}$ are independent group generators is equivalent to saying that $r(g_1), r(g_2), \ldots r(g_m)$ are linearly independent basis vectors in $\mathcal{S_R}=\mathcal{R}\cup\{0*,1*\}$.
 	Proof: 
-	Since $\mathcal{S_R}\simeq\mathcal{S_G}$ and they are finite structures, $r$ is an $\mathcal{L}_{\text{vspace}}-$ elementary embedding by the [[Finite_Structures#Finite Isomorphism Corollary|finite isomorphism corollary]]. 
+	Since $\mathcal{S_R}\simeq\mathcal{S_G}$ and they are finite structures, $r$ is an $\mathcal{L}_{\text{vspace}}-$ elementary embedding by the [[COM-General_Finite_Structures#Finite Isomorphism Corollary|finite isomorphism corollary]]. 
 	$(\implies)$
-		Note the $\mathcal{L}_{\text{vspace}}$ formula that says 
-	
-#wip 
+		Note the $\mathcal{L}_{\text{vspace}}$ formula that says that $(a_i)_{i \in I}$ are independent is $\varphi(\bar a)=$
+		

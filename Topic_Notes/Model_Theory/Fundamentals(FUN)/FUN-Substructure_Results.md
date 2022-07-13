@@ -35,7 +35,7 @@
 			From and we can get or, so that proves the claim.
 
 ### Substructures with Quantified Formulas Theorem
-**Thm(Substructures with Quantified Formulas):** Suppose $\mathcal{S} \le \mathcal B$, $\bar s \in S$, and $\varphi(\bar x, \bar y)$ is a quantifier free formula. Then:
+**Thm(Substructures with Quantified Formulas):** Suppose $\mathcal{S} \le \mathcal B$, $\bar s \in S$, and $\varphi(\bar x, \bar y)$ is a quantifier free formula. Then: ($\mathcal B$ is bigger, $\mathcal S$ is smaller)
 	1) if $\mathcal S \models \exists_{\bar y} \varphi(\bar s, \bar y)$, then $\mathcal B \models \exists_{\bar y} \varphi(\bar s, \bar y)$
 	2) if $\mathcal B \models \forall_{\bar y} \varphi(\bar s, \bar y)$, then $\mathcal S \models \forall_{\bar y} \varphi(\bar s, \bar y)$
 	Proof for 1):

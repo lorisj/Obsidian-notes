@@ -4,12 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "a6de5ce37b573fff",
+        "id": "9ccbf7194bee747b",
         "type": "leaf",
+        "dimension": 50.852965069049546,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
+            "file": "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3001e47fb78bfd4d",
+        "type": "leaf",
+        "dimension": 49.14703493095045,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Model_Theory/Common_Structures(COM)/COM-Vector_Spaces.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
+                "file": "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +101,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a6de5ce37b573fff",
+  "active": "9ccbf7194bee747b",
   "lastOpenFiles": [
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Syndrome.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Coding_Space_Definition_and_Properties.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Check_Matrix.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Stabilizer_Definition_and_Properties.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Normalizer_and_Centralizer.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Error_Correction(EC)/STC-EC-Random-Stabilizer-Codes.md",
-    "Classical_Information_Theory/Fundementals(FUN)/FUN-Asypmtotic_Equipartition_Property.md",
+    "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
+    "Model_Theory/Common_Structures(COM)/COM-Vector_Spaces.md",
+    "Model_Theory/Common_Structures(COM)/COM-Abelean_Group.md",
+    "Model_Theory/Fundamentals(FUN)/FUN-Algebraic_Closure_and_Independence.md",
+    "Model_Theory/Common_Structures(COM)/COM-General_Finite_Structures.md",
+    "Linear_Algebra/Fundementals(FUN)/FUN-Vectorspaces.md",
+    "Model_Theory/Fundamentals(FUN)/Untitled.md",
+    "Linear_Algebra/Fundementals(FUN)/FUN-Span.md",
     "Linear_Algebra/Fundementals(FUN)/FUN-Basis.md",
-    "Linear_Algebra/Fundementals(FUN)/FUN-Linear_Independence.md",
-    "Classical_Information_Theory/Compression(CMP)/Compression.md"
+    "Linear_Algebra/Fundementals(FUN)/Fundamentals.md"
   ]
 }

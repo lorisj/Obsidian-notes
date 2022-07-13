@@ -5,13 +5,41 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "",
+      "query": "path:Model_Theory",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Abstract_Algebra",
+      "color": {
+        "a": 1,
+        "rgb": 5562450
+      }
+    },
+    {
+      "query": "path:Classical_Information_Theory",
+      "color": {
+        "a": 1,
+        "rgb": 12210912
+      }
+    },
+    {
+      "query": "path:Quantum_Information_Theory",
+      "color": {
+        "a": 1,
+        "rgb": 5431497
+      }
+    },
+    {
+      "query": "path:Linear_Algebra",
+      "color": {
+        "a": 1,
+        "rgb": 14736466
       }
     }
   ],
@@ -25,6 +53,6 @@
   "repelStrength": 17.0940170940171,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5948066885277185,
+  "scale": 0.37490080770087325,
   "close": false
 }
