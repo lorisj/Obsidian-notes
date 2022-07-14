@@ -3,9 +3,13 @@
 ### Introduction
 Let $F$ be some field
 $\mathcal{L}=\{0,+,-,\cdot_r : r\in F\}$
-This note states the [[#Axioms]],(the definition of a vector space) as well as a few results:
+This note states the [[#Axioms]],(the definition of a vector space) as well as a few results and interpretations:
 [[#Substructure of a Vector Space is a Vector Space Lemma|Any substructure of a vector space is also a vector space]]
 [[#Incompleteness of Finite Field Vector Spaces Thm|Finite field vector spaces are incomplete]]
+[[#Terms Interpretation|The interpretation of terms]]
+[[#Formulas Interpretation|The interpretation of formulas]]
+[[#Algebraic Closure for Vector Spaces|The meaning of algebraic closure for vector spaces]]
+
 ### Axioms
 Let $T_v$ be the theory of vector spaces, axiomatized by: 
 [[COM-Abelean_Group#Axioms|Abelian group axioms]] on $+$:
@@ -43,22 +47,27 @@ Recall the [[FUN-Terms_Formulas_and_Sentences#Formulas Definition|definition of 
 
 So we see that formulas can only tell us boolean combinations and quantified extensions of formulas that just say if two linear combinations of variable terms evaluate to be equal.
 
-### Algebraic Closure Interpretation
+### Algebraic Closure for Vector Spaces
 Consider the language of $\mathbb{F}$ vector spaces in $\mathcal{L}_\text{vspace}=\{0,+,-,\cdot_r : r\in \mathbb F\}$ with structure $\mathcal M$.
 Recall the [[FUN-Algebraic_Closure_and_Independence#Algebraic Closure Definition|definition of algebraic closure]].
 
 Consider some set $A\subseteq M$. We know that [[#Formulas Interpretation|from the interpretation above]], formulas can only say some quantified/logical extension of if two linear combinations of variables are equal. We claim the following lemma:
-**Lem(Algebraic Closure for Vector Spaces):** $\text{acl}(A)=\text{span}(A)$ for $\mathcal{L}_{\text{vspace}}$ structure $\mathcal M$, and $A\subseteq M$.
+**Lem(Algebraic Closure for Vector Spaces):** $\text{acl}(A)=\text{span}(A)$ for *infinite* $\mathcal{L}_{\text{vspace}}$ structure $\mathcal M$ that satisfies the axioms, and for any $A\subseteq M$.
 	Proof:
 		($\text{acl}(A)\subseteq \text{span}(A)$):
-			Suppose $\bar x\in \text{acl}(A)$. This means that there must be some $\mathcal L_{\text{vspace}}$ formula $\varphi(\bar k,\bar a)$ that defines a finite set $K$ (i.e $K=\{\bar k \in M^n : \varphi(\bar k,\bar a)\text{ with } \bar a \in A^m\}$ by the [[FUN-Definable_Sets#Definable Set Definition|definition of definable sets]])with $\bar x \in K$
-			
-			
-
-### Definable Closure Interpretation
+			Suppose $x\in \text{acl}(A)$. This means that there must be some $\mathcal L_{\text{vspace}}$ formula $\varphi(k,\bar a)$ that defines a finite set $K$ (i.e $K=\{k \in M : \varphi(k,\bar a)\text{ with } \bar a \in A^m\}$ by the [[FUN-Definable_Sets#Definable Set Definition|definition of definable sets]] and $K$ is finite) with $x \in K$. To show that any finite definable set $\subseteq \text{span}(A)$, we use induction on [[FUN-Terms_Formulas_and_Sentences#Formulas Definition|formulas]]:
+				points 1,2) $\varphi(\bar x, \bar a)$ is atomic $\implies$ $\varphi$ is $x=\sum_{j}\cdot_{d_j}(a_j)$ 
+					We see that clearly $x\in \text{span}(A)$, and $\varphi$ defines $\{x\}$ which is finite.
+				points 3) $\varphi$ can be $x\ne \sum_{j}\cdot_{d_j}(a_j)$
+					If $x$ is not a particular linear combination of $a_j$, then it could be anything but $y=\sum_{j}\cdot_{d_j}(a_j)$. So the set it defines must include infinitely many vectors, because $M-\{y\}$ is still infinite.
+				point 4) $\varphi$ can be some logical combination of above points
+					Up until now, a formula either defines a finite set in $\text{span}(A)$, or an infinite set $\notin \text{span}(A)$. Using $\land$ and $\lor$ on two formulas, we would only have a problem if the new formula defines a finite set with something $\notin \text{span}(A)$. #wipImp 
+		($\text{span}(A)\subseteq \text{acl}(A)$):
+			Suppose $x \in \text{span}(A)$. Let $c_1, \ldots c_m$ correspond to scalars and $a_1, \ldots a_m$ correspond to vectors $\in A$ that make $x=\sum_{i}c_i * a_i$, [[span implies linear combination|which must exist, since]] $x \in \text{span(A)}$. To show $x \in \text{acl}(A)$, we must find some formula $\varphi(z, \bar y)$, and some parameters $\bar a$ with $a_i \in A$ such that $\mathcal M \models \varphi(z, \bar a)$ if and only if $z = x$. Let $\varphi(z,\bar y)$ be the formula "$z=\sum_{i}\cdot_{c_i}(y_i)$". Note $\varphi(z,\bar a)$ with $\bar a =(a_1, \ldots a_m)$ as defined above will only be satisfied with $z=x$, completing our proof.
 
 
 ### Incompleteness of Finite Field Vector Spaces Thm
 **Thm(Finite Field Vector Spaces are not Complete):** Suppose $F$ is a finite field. Then, the axioms do not form a complete theory. Namely there is some sentence $\phi$, models $\mathcal M, \mathcal N$ such that $\mathcal{M},\mathcal{N}\models T_v$ however $\mathcal{M} \models \phi$, and $\mathcal{N}\models \neg \phi$.
 	Proof:
-	#wip 
+	Consider the fields $\mathbb F_p$ and $\mathbb F_q$ for $q > p$ (not equal). Consider $\mathcal M =\{ \mathbb F_p,0,+,-,\cdot_r:r\in \mathbb F_p\}$, $\mathcal N=\{\mathbb F_q, 0,+,-,\cdot_r : r\in \mathbb F_q\}$ . Note that these both satisfy the [[#Axioms|vector space axioms]], however the sentence $\phi$ which is "$\forall_x \sum_{i=1}^p x= 0$" is true in $\mathcal M$, but not in $\mathcal N$. 
+

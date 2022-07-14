@@ -3,7 +3,7 @@
 [[FUN-Language_and_Structure#Introduction|Languages/Structures]] 
 
 ### Introduction
-#wip 
+In this note, we write about structure preserving maps between structures. This includes the definitions of [[#Homomorphisms Embeddings and Isomorphisms|homomorphism]], [[#mathcal L Embedding Definition|embedding]], and [[#mathcal L Isomorphism Definition|isomorphism]].
 
 ### $\mathcal{L}$ Homomorphism Definition
 **Def($\mathcal{L}$ Homomorphism):** An $\mathcal{L}$ Homomorphism $\eta$ is a function between two $\mathcal{L}$ structures $\eta : \mathcal{M}\to\mathcal{N}$ such that $\eta$  preserves all interpretations of symbols in $\mathcal{L}$. Formally:
@@ -22,4 +22,3 @@
 **Def($\mathcal{L}$ Isomorphism):** An $\mathcal{L}$ isomorphism $\eta$ is a bijective $\mathcal{L}$ [[#mathcal L Homomorphism Definition|homomorphism]].
 
 
-### Elementary Embedding Definition

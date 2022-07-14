@@ -1,9 +1,11 @@
 # Truth
 
 ### Prerequisites
+[[FUN-Language_and_Structure#Introduction|Languages and Structures]], [[FUN-Terms_Formulas_and_Sentences#Introduction|terms, formulas, sentences]]
 
 ### Introduction
-#wip
+In this note we give [[#Truth Definition|definition of truth]], as well as a [[#Everything in a Structure is True or False Lemma|result that states everything in a structure is either true or false]].
+
 ### Truth Definition
 **Def(Truth):** Let $\mathcal{M}$ be an $\mathcal{L}$ structure, and $\varphi(x_1, \ldots x_n)$ be an $\mathcal{L}$ formula, and let $a_1, \ldots a_n \in M$. We define $\mathcal{M}\models\varphi(a_1, \ldots a_n)$ through the following cases:
 	1) Case $\varphi$ is $s=t$: 
@@ -24,7 +26,7 @@
 If $\mathcal{M}\models \varphi(\bar a)$, then we say $\mathcal{M}$ satisfies $\varphi(\bar a)$, or that $\varphi(\bar a)$ is true in $\mathcal{M}$.
 
 
-### Everything is True or False Lemma
-**Lem(Everything is True or False):** Fix arbitrary $\mathcal{L}$ structure $\mathcal{M}$. For any $\mathcal{L}$ sentence $\varphi(\bar{x})$, and any tuple $\bar{a} \in M$, it is either the case that $\mathcal{M}\models \varphi(\bar{a})$ xor that $\mathcal{M}\models \neg \varphi(\bar a)$.
+### Everything in a Structure is True or False Lemma
+**Lem(Everything in a structure is True or False):** Fix arbitrary $\mathcal{L}$ structure $\mathcal{M}$. For any $\mathcal{L}$ sentence $\varphi(\bar{x})$, and any tuple $\bar{a} \in M$, it is either the case that $\mathcal{M}\models \varphi(\bar{a})$ xor that $\mathcal{M}\models \neg \varphi(\bar a)$.
 	Proof: This follows mostly from [[#Truth Definition|case 3]]. It must be the case that either $\mathcal{M}\models \varphi(\bar{a})$ xor $\mathcal M \not \models \varphi(\bar a)$. This can be shown because any formula $\varphi(\bar{a})$ by induction using the steps [[#Truth Definition|listed here]] will either be $\mathcal M \models \varphi(\bar{a})$ or not, in which case we can by definition say $\mathcal{M} \not \models \varphi(\bar{a})$. Thus using [[#Truth Definition|case 3]], we can see that either $\mathcal{M} \models \varphi(\bar a)$ xor $\mathcal{M} \models \neg \varphi(\bar a)$.
 

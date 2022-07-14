@@ -1,8 +1,10 @@
 # Terms, Formulas, and Sentences
 ### Prerequisites
+[[FUN-Language_and_Structure#Introduction|Languages and Structures]]
 
 ### Introduction
-#wip 
+In this note, we give the [[#Terms Definition|definition of terms]], as well as the [[#Interpretation of Terms|interpretation of terms]], and some [[#Examples of Terms and Interpretations|examples of terms and interpretations]], as well as some [[#Intuition for terms|intuition for terms]]. 
+Then we give the [[#Formulas Definition|definition of formulas]], the [[#Atomic and Quantifier Free Formulas Definition|definition of atomic and quantifier free formulas]], some [[#Intuition for formulas|intuition for formulas]], and lastly the [[#Sentence Definition|definition of sentence]].
 
 ### Terms Definition
 **Def($\mathcal{L}$ Terms):** The set of $\mathcal{L}$ terms are defined inductively:
@@ -16,7 +18,7 @@ Think of these as generalizations of elements of the domain $M$:
 	c) $f$ has codomain $M$, so evaluating $f(t_1,\ldots t_{n_f})$ should give something $\in M$ 
 These generalizations lead to the interpretations of terms, given below.
 
-### Interpretation of Terms Definition
+### Interpretation of Terms
 **Def(Interpretation of Terms):** Given $\mathcal{L}$ structure $\mathcal{M}$ where $t$ is a term involving variables $v_1, \ldots v_n$, $t$ has interpretation $t^\mathcal{M}$ in $\mathcal{M}$ as a function $M^n \to M$, defined as: 
 	1) If $t$ is a constant symbol $c$, then $t^{\mathcal{M}}(\bar{a})=c^{\mathcal{M}}$
 	2) If $t$ is a variable $v_j$, then $t^\mathcal{M}(\bar{a})=a_j$

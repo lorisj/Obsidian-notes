@@ -1,8 +1,10 @@
 # Theories,  Elementary Classes and Equivalence
 ### Prerequisites
+[[FUN-Language_and_Structure#Introduction|Languages and Structures]]
+[[FUN-Terms_Formulas_and_Sentences#Introduction|terms, formulas, sentences]]
 
 ### Introduction
-#wip 
+In this note, we give the definitions of [[#Theories and Satisfiability Definition|theories and satisfiability]], [[#Full Theory Definition|full theories]], [[#Elementary Classes Definition and Intuition|elementary classes]], [[#Equivalence Definition|elementary equivalence]], [[#Complete Theory Definition|complete theories]], and lastly a [[#Full theory is Complete Theorem|theorem that says the full theory is complete]].
 
 ### Theories and Satisfiability Definition
 **Def(Theory):** An $\mathcal L$ theory $T$ is a set of $\mathcal{L}$ [[FUN-Terms_Formulas_and_Sentences#Sentence Definition|sentences]]. We say that $\mathcal{M}$ is a model of $T$ (i.e $\mathcal M \models T$) if $\mathcal M \models \phi$ for every $\phi \in T$.
@@ -27,4 +29,5 @@ Note that to get an elementary class is to consider $T=\text{Th}(\mathcal M)$ an
 ### Full theory is Complete Theorem
 **Thm(Full Theory is Complete):** Note that the full theory of any model $\text{Th}(\mathcal M)$ is always complete
 	Proof:
-	Recall the [[#Full Theory Definition|definition of the full model of a theory]]. 
+		Recall the [[#Full Theory Definition|definition of the full model of a theory]]. 
+		#wip

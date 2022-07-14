@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9ccbf7194bee747b",
-        "type": "leaf",
-        "dimension": 50.852965069049546,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
         "id": "3001e47fb78bfd4d",
         "type": "leaf",
-        "dimension": 49.14703493095045,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Model_Theory/Common_Structures(COM)/COM-Vector_Spaces.md",
+            "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
             "mode": "source",
             "source": false
           }
@@ -83,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
+                "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,6 +77,29 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a6734f4bb6b50b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "170fd2df3e41e592",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -101,17 +110,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9ccbf7194bee747b",
+  "active": "3001e47fb78bfd4d",
   "lastOpenFiles": [
-    "Model_Theory/Fundamentals(FUN)/FUN-Definable_Sets.md",
-    "Model_Theory/Common_Structures(COM)/COM-Vector_Spaces.md",
-    "Model_Theory/Common_Structures(COM)/COM-Abelean_Group.md",
-    "Model_Theory/Fundamentals(FUN)/FUN-Algebraic_Closure_and_Independence.md",
-    "Model_Theory/Common_Structures(COM)/COM-General_Finite_Structures.md",
-    "Linear_Algebra/Fundementals(FUN)/FUN-Vectorspaces.md",
-    "Model_Theory/Fundamentals(FUN)/Untitled.md",
-    "Linear_Algebra/Fundementals(FUN)/FUN-Span.md",
-    "Linear_Algebra/Fundementals(FUN)/FUN-Basis.md",
-    "Linear_Algebra/Fundementals(FUN)/Fundamentals.md"
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Normalizer_and_Centralizer.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Stabilizer_Definition_and_Properties.md",
+    "Linear_Algebra/Common_Structures(COM)/COM-Mod_2_Vector_Space.md",
+    "Linear_Algebra/Common_Structures(COM)/Common_Structures.md",
+    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Check_Matrix.md",
+    "Quantum_Information_Theory/Compression(CMP)/CMP-Schumacher-Compression.md",
+    "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
+    "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Source.md",
+    "Quantum_Information_Theory/Compression(CMP)/CMP Source_Coding_Problem.md",
+    "Model_Theory/Fundamentals(FUN)/FUN-Algebraic_Closure_and_Independence.md"
   ]
 }

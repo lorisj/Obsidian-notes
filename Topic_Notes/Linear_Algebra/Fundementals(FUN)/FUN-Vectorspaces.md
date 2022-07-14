@@ -3,7 +3,7 @@
 [[Model_Theory/Fundamentals(FUN)/Fundamentals|fundamentals of model theory]]
 
 ### Introduction
-This note gives the [[#Vector Space Definition|definition of a vector space]].
+This note gives the [[#Vector Space Definition Axioms|definition of a vector space]].
 
 
 ### Vector Space Definition (Axioms)

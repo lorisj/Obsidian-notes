@@ -1,7 +1,10 @@
 # Substructure results
 ### Prerequisites
+[[FUN-Language_and_Structure#Introduction|Languages and Structures]]
+[[FUN-Terms_Formulas_and_Sentences#Introduction|terms, formulas, sentences]]
 
 ### Introduction
+In this note, we give the [[#Substructure definition|definition of substructure]], some [[#Examples|examples]], a [[#Substructures Respect Quantifier Free Formulas Theorem|theorem]] that says substructures respect quantifier free formulas, and [[#Substructures with Quantified Formulas Theorem|another theorem]] that says substructures respect universal quantifiers going down, existential quantifiers going up.
 
 ### Substructure definition
 **Def(Substructure):** If $\mathcal{M,N}$ are $\mathcal{L}$ structures with $M\subseteq N$ and the inclusion map $\eta:M\to N$ acts as the identity on $M$ is an $\mathcal{L}$ embedding, then $\mathcal{M}$ is a substructure of $\mathcal{N}$. (sometimes written as either $\mathcal{M}\le \mathcal{N}$ or simply $\mathcal{M}\subseteq \mathcal{N}$)
@@ -11,7 +14,7 @@
 
 ### Substructures Respect Quantifier Free Formulas Theorem
 **Thm(Substructures Respect Quantifier Free Formulas):** Suppose $\mathcal S\le \mathcal B$. $\bar{s} \in S$, and $\varphi$ a quantifier free formula. Then $\mathcal{S} \models \varphi (\bar{s})$ if and only if $\mathcal B \models \varphi (\bar{s})$. (note S is smaller, B is bigger)
-	Proof: We argue this result working backwards, first using induction on [[FUN-Terms_Formulas_and_Sentences#Terms Definition|terms]] and [[FUN-Terms_Formulas_and_Sentences#Interpretation of Terms Definition|their interpretations]], and then on [[FUN-Terms_Formulas_and_Sentences#Formulas Definition|formulas]].
+	Proof: We argue this result working backwards, first using induction on [[FUN-Terms_Formulas_and_Sentences#Terms Definition|terms]] and [[FUN-Terms_Formulas_and_Sentences#Interpretation of Terms|their interpretations]], and then on [[FUN-Terms_Formulas_and_Sentences#Formulas Definition|formulas]].
 		Claim: If $t(\bar{x})$ is a term, and $\bar s \in S$, then $t^\mathcal{S}(\bar s)=t^\mathcal B (\bar s)$
 			Proof: (inductive hypothesis: Assume claim is true for subterms $k_i(\bar s)$)
 				1) If $t$ is a constant symbol $c$, then $t^\mathcal S(\bar s) = c^\mathcal S = c^\mathcal B = t^\mathcal B (\bar s)$.
