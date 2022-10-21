@@ -4,42 +4,63 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": false,
+  "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:Model_Theory",
+      "query": "tag:#pathCOMP",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 6577366
       }
     },
     {
-      "query": "path:Abstract_Algebra",
+      "query": "tag:#pathMODL",
       "color": {
         "a": 1,
-        "rgb": 5562450
+        "rgb": 14048466
       }
     },
     {
-      "query": "path:Classical_Information_Theory",
+      "query": "tag:#pathPROB",
       "color": {
         "a": 1,
-        "rgb": 12210912
+        "rgb": 11392604
       }
     },
     {
-      "query": "path:Quantum_Information_Theory",
+      "query": "tag:#pathLINA",
       "color": {
         "a": 1,
-        "rgb": 5431497
+        "rgb": 6084188
       }
     },
     {
-      "query": "path:Linear_Algebra",
+      "query": "tag:#pathQINF",
       "color": {
         "a": 1,
-        "rgb": 14736466
+        "rgb": 3863261
+      }
+    },
+    {
+      "query": "tag:#pathREAL",
+      "color": {
+        "a": 1,
+        "rgb": 6073814
+      }
+    },
+    {
+      "query": "tag:#pathCINF",
+      "color": {
+        "a": 1,
+        "rgb": 16071997
+      }
+    },
+    {
+      "query": "tag:#pathALGB",
+      "color": {
+        "a": 1,
+        "rgb": 16054111
       }
     }
   ],
@@ -53,6 +74,6 @@
   "repelStrength": 17.0940170940171,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6889035460040069,
-  "close": false
+  "scale": 0.35203095171766835,
+  "close": true
 }

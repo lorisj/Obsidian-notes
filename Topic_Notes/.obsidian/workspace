@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3001e47fb78bfd4d",
+        "id": "327bb791e94f20d4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
+            "file": "Quantum_Information_Theory(QINF)/Stabilizer-Codes(STC)/Basic_Properties(BP)/Coding_Space_Definition_and_Properties.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "theorem",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,11 +49,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 462
+    "width": 455.0141067504883
   },
   "right": {
     "id": "e6bfd877462541b1",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
+                "file": "Quantum_Information_Theory(QINF)/Stabilizer-Codes(STC)/Basic_Properties(BP)/Coding_Space_Definition_and_Properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
+                "file": "Quantum_Information_Theory(QINF)/Stabilizer-Codes(STC)/Basic_Properties(BP)/Coding_Space_Definition_and_Properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3001e47fb78bfd4d",
+  "active": "327bb791e94f20d4",
   "lastOpenFiles": [
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Normalizer_and_Centralizer.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Stabilizer_Definition_and_Properties.md",
-    "Linear_Algebra/Common_Structures(COM)/COM-Mod_2_Vector_Space.md",
-    "Linear_Algebra/Common_Structures(COM)/Common_Structures.md",
-    "Quantum_Information_Theory/Stabilizer-Codes(STC)/STC-Basic_Properties(BP)/STC-BP-Check_Matrix.md",
-    "Quantum_Information_Theory/Compression(CMP)/CMP-Schumacher-Compression.md",
-    "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Typical_Set.md",
-    "Quantum_Information_Theory/Compression(CMP)/CMP-Quantum_Source.md",
-    "Quantum_Information_Theory/Compression(CMP)/CMP Source_Coding_Problem.md",
-    "Model_Theory/Fundamentals(FUN)/FUN-Algebraic_Closure_and_Independence.md"
+    "Quantum_Information_Theory(QINF)/Stabilizer-Codes(STC)/Basic_Properties(BP)/Coding_Space_Definition_and_Properties.md",
+    "Computability_Theory(COMP)/(COMP).md",
+    "Model_Theory(MODL)/Fundamentals(FUN)/Definable_Sets.md",
+    "Quantum_Information_Theory(QINF)/Notation.md",
+    "Quantum_Information_Theory(QINF)/Packing Lemma.md",
+    "Real_Analysis(REAL)/Constructions_of_Sets(CNS)/Ordered_Field.md",
+    "Linear_Algebra(LINA)/Fundamentals(FUN)/FUN-Span.md",
+    "Linear_Algebra(LINA)/Fundamentals(FUN)/FUN-Linear_Independence.md",
+    "Real_Analysis(REAL)/Constructions_of_Sets(CNS)/Natrual_Numbers.md",
+    "definition of length.md"
   ]
 }

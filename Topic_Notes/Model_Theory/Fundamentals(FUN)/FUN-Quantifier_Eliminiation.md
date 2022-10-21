@@ -1,5 +1,0 @@
-# Quantifier Elimination
-### Prerequisites
-
-### Introduction
-

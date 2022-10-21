@@ -1,5 +1,0 @@
-### Prerequisites
-#wip
-### Introduction
-
-### Axioms
